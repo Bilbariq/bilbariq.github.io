@@ -192,15 +192,15 @@ revealElements.forEach(element => {
    DOWNLOAD CV  
 ========================================================= */
 
-const downloadCV =
-    document.getElementById("downloadCV");
+// const downloadCV =
+//     document.getElementById("downloadCV");
 
-downloadCV.addEventListener("click", function(event) {
+// downloadCV.addEventListener("click", function(event) {
 
-    event.preventDefault();
+//     event.preventDefault();
 
-    alert(
-        "Silakan tambahkan file CV kamu dan ubah href tombol Download CV."
-    );
+//     alert(
+//         "Silakan tambahkan file CV kamu dan ubah href tombol Download CV."
+//     );
 
-});
+// });
