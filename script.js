@@ -1,7 +1,3 @@
-/* =========================================================
-   TYPEWRITER
-========================================================= */
-
 const words = [
     "Bil",
     "Abil",
@@ -64,9 +60,7 @@ function typeEffect() {
 typeEffect();
 
 
-/* =========================================================
-   MOBILE MENU
-========================================================= */
+/* MOBILE MENU*/
 
 const mobileMenuBtn =
     document.getElementById("mobileMenuBtn");
@@ -81,9 +75,7 @@ mobileMenuBtn.addEventListener("click", () => {
 });
 
 
-/* =========================================================
-   ACTIVE NAVIGATION
-========================================================= */
+/* ACTIVE NAVIGATION */
 
 const sections =
     document.querySelectorAll("section[id]");
@@ -127,9 +119,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =========================================================
-   CLOSE MOBILE MENU
-========================================================= */
+/* CLOSE MOBILE MENU */
 
 navLinks.forEach(link => {
 
@@ -142,9 +132,7 @@ navLinks.forEach(link => {
 });
 
 
-/* =========================================================
-   SCROLL REVEAL
-========================================================= */
+/* SCROLL REVEAL */
 
 const revealElements =
     document.querySelectorAll(
@@ -188,9 +176,7 @@ revealElements.forEach(element => {
 });
 
 
-/* =========================================================
-   DOWNLOAD CV  
-========================================================= */
+/* DOWNLOAD CV  */
 
 // const downloadCV =
 //     document.getElementById("downloadCV");
